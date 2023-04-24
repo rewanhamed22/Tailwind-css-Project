@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <nav className="relative z-10 w-full text-neutral-800 bg-[#E7F9FF]">
+      <nav className="relative z-10 w-full text-neutral-800 bg-[#E7F9FF]" id="Navbar">
         <div className="flex  flex-col max-w-screen-xl px-8 mx-auto lg:items-center lg:justify-between lg:flex-row py-4">
           <div class="flex flex-col lg:flex-row items-center space-x-6 xl:space-x-8">
             <div className="w-full flex flex-row items-center justify-between py-6">
