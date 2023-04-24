@@ -3,13 +3,26 @@ import Navbar from "./Compoents/Navbar";
 import BuyTrade from "./Compoents/BuyTrade";
 import Footer from "./Compoents/Footer";
 import Support from "./Compoents/Support";
+import Statistics from "./Compoents/Statistics";
+import Partners from "./Compoents/Partners";
+import Credit from "./Compoents/Credit";
+import Tools from "./Compoents/Tools";
+import Industry from "./Compoents/Industry";
+import GetStarted from "./Compoents/GetStarted";
+
 
 function App() {
   return (
     <>
       <Navbar />
       <Hero />
+      {/* <Statistics /> */}
       <BuyTrade />
+      <Partners/>
+      <Credit/>
+      <Tools/>
+      <Industry/>
+      <GetStarted/>
       <Support />
       <div className="w-full my-10 flex justify-center bg-white">
         <a
