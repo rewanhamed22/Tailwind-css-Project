@@ -1,11 +1,16 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 const Industry = () => {
   return (
     <div>
       <section className="w-full my-24 text-black/80">
         <div className="relative max-w-screen-xl px-8 mx-auto grid grid-cols-12 gap-x-6">
-          <div className="col-span-12 lg:col-span-6 ">
+          <motion.div
+            initial={{ x: -40, opacity: 0.1 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ type: "spring", bounce: 0.5, duration: 1 }}
+            className="col-span-12 lg:col-span-6 "
+          >
             <div className="w-full">
               <img
                 src="src/assets/industry-leading-security.16b398c.webp"
@@ -13,8 +18,14 @@ const Industry = () => {
                 className="w-full"
               />
             </div>
-          </div>
-          <div className="col-span-12 lg:col-span-5 space-y-8 sm:space-y-6 mt-8 xl:px-8 ">
+          </motion.div>
+          <motion.div
+            initial={{ x: 40, opacity: 0.1 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            // transition={{ type: "tween", duration: 1 }}
+            transition={{ type: "spring", bounce: 0.5, duration: 1 }}
+            className="col-span-12 lg:col-span-5 space-y-8 sm:space-y-6 mt-8 xl:px-8 "
+          >
             <h2 className="text-4xl font-semibold">
               Industry-leading security from day one
             </h2>
@@ -97,7 +108,7 @@ const Industry = () => {
                 </p>
               </li>
             </ul>
-          </div>
+          </motion.div>
         </div>
       </section>
     </div>

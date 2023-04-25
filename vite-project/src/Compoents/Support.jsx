@@ -1,20 +1,32 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 const Support = () => {
   return (
     <div>
-      <section className="w-full my-24 " >
+      <section className="w-full my-24 ">
         <div className="relative max-w-screen-xl px-4 sm:px-8 mx-auto grid grid-cols-12 gap-x-6 overflow-hidden">
           <div className="col-span-12 lg:col-span-6 ">
-            <div className="w-full">
+            <motion.div
+              initial={{ x: -40, opacity: 0.1 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              // transition={{ type: "tween", duration: 1 }}
+              transition={{ type: "spring", bounce: 0.5 , duration:1 }}
+              className="w-full"
+            >
               <img
                 src="src/assets/faq.05e12ee.webp"
                 alt=""
                 className="w-full"
               />
-            </div>
+            </motion.div>
           </div>
-          <div className="col-span-12 lg:col-span-6 px-4 sm:px-6 mt-8 text-black/90">
+          <motion.div
+            initial={{ x: 40, opacity: 0.1 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            // transition={{ type: "tween", duration: 1 }}
+            transition={{ type: "spring", bounce: 0.5 ,duration: 1 }}
+            className="col-span-12 lg:col-span-6 px-4 sm:px-6 mt-8 text-black/90"
+          >
             <span className="text-base text-gradient font-semibold uppercase mb-4 sm:mb-2">
               Support
             </span>
@@ -117,7 +129,7 @@ const Support = () => {
                 </button>
               </li>
             </ul>
-          </div>
+          </motion.div>
         </div>
       </section>
     </div>

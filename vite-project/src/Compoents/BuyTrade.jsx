@@ -1,10 +1,16 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 const BuyTrade = () => {
   return (
     <section className="w-full bg-white">
       <div className=" relative max-w-screen-xl px-4 sm:px-8 mx-auto grid grid-cols-12 gap-x-6 overflow-hidden">
-        <div className="col-span-12 lg:col-span-6 mt-4 xl:mt-20 space-y-6 px-4 ">
+        <motion.div
+          initial={{ x: -40, opacity: 0.1 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          // transition={{ type: "tween", duration: 1 }}
+          transition={{ type: "spring", bounce: 0.5 , duration:1}}
+          className="col-span-12 lg:col-span-6 mt-4 xl:mt-20 space-y-6 px-4 "
+        >
           <h2 className="text-4xl font-semibold sm:pr-8 xl:pr-12 text-black">
             Buy & trade on the <br className="hidden sm:block" />
             original crypto exchange.
@@ -121,14 +127,22 @@ const BuyTrade = () => {
               </button>
             </div>
           </div>
-          <button className=" text-center rounded-full hover:shadow-md hover:shadow-[#0c66ee]/50 transition duration-300 w-full px-5 py-4 bg-[#0c66ee] border-[#0c66ee] text-white text-base font-medium" >Buy Now</button>
-        </div>
+          <button className=" text-center rounded-full hover:shadow-md hover:shadow-[#0c66ee]/50 transition duration-300 w-full px-5 py-4 bg-[#0c66ee] border-[#0c66ee] text-white text-base font-medium">
+            Buy Now
+          </button>
+        </motion.div>
 
-        <div className="col-span-12 lg:col-span-6 hidden sm:block -ml-8  mt-4 sm:-mt-4 ">
+        <motion.div
+          initial={{ x: 40, opacity: 0.1 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          // transition={{ type: "tween", duration: 1 }}
+          transition={{ type: "spring", bounce: 0.5, duration:1 }}
+          className="col-span-12 lg:col-span-6 hidden sm:block -ml-8  mt-4 sm:-mt-4 "
+        >
           <div className="">
             <img src="src/assets/buy-and-trade.69b9f7b.webp" />
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

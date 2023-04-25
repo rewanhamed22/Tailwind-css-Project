@@ -1,10 +1,12 @@
 import React from "react";
-
+import { motion } from "framer-motion"
 const Credit = () => {
   return (
     <div>
       <section className="w-full my-36">
-        <div className="relative max-w-screen-xl px-4 sm:px-8 mx-auto grid grid-cols-12 gap-x-6 overflow-hidden ">
+        <motion.div   initial={{ y: 200, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ type: "tween", duration: 1 }} className="relative max-w-screen-xl px-4 sm:px-8 mx-auto grid grid-cols-12 gap-x-6 overflow-hidden ">
           <div className="col-span-12 lg:col-span-7">
             <div className="w-full">
               <img
@@ -89,7 +91,7 @@ const Credit = () => {
               Join the waitlist
             </button>
           </div>
-        </div>
+        </motion.div>
       </section>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 const Partners = () => {
   return (
     <div>
@@ -11,7 +11,12 @@ const Partners = () => {
           <p className="text-gray-700 tracking-wide leading-relaxed hidden sm:block ">
             We're partners with countless major organizations around the globe
           </p>
-          <div className="flex flex-wrap items-center justify-center aos-init">
+          <motion.div
+            initial={{ y: 200, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ type: "tween", duration: 1 }}
+            className="flex flex-wrap items-center justify-center aos-init"
+          >
             <div>
               <img
                 src="src/assets/clever.png"
@@ -40,7 +45,7 @@ const Partners = () => {
                 class="sm:w-1/2 lg:w-72 mx-auto"
               />
             </div>
-          </div>
+          </motion.div>
         </div>
       </section>
     </div>
