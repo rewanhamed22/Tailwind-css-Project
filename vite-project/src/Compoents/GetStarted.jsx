@@ -11,7 +11,7 @@ const GetStarted = () => {
           <div className="relative w-full flex flex-col lg:flex-row items-center justify-between space-y-12 lg:space-y-0 px-4 xl:px-10 mt-16 sm:mt-8 ">
             <div className="max-w-[280px] xl:max-w-[363px] space-y-6 sm:space-y-3 text-center">
               <img
-                src="src/assets/sign-up.4afd242.png"
+                src="https://i.ibb.co/9wg1ZTk/sign-up-4afd242.png"
                 alt=""
                 className="max-w-[245px] mx-auto"
               />
@@ -25,7 +25,7 @@ const GetStarted = () => {
             </div>
             <div className="max-w-[280px] xl:max-w-[363px] space-y-6 sm:space-y-3 text-center">
               <img
-                src="src/assets/fund.93372b0.png"
+                src="https://i.ibb.co/TcYfTHm/fund-93372b0.png"
                 alt=""
                 className="max-w-[245px] mx-auto"
               />
@@ -37,7 +37,7 @@ const GetStarted = () => {
             </div>
             <div className="max-w-[280px] xl:max-w-[363px] space-y-6 sm:space-y-3 text-center">
               <img
-                src="src/assets/buy-crypto.46d8692.png"
+                src="https://i.ibb.co/hZxgvFb/buy-crypto-46d8692.png"
                 alt=""
                 className="max-w-[245px] mx-auto"
               />
@@ -50,12 +50,12 @@ const GetStarted = () => {
               </p>
             </div>
             <img
-              src="src/assets/arrow.60f4e50.png"
+              src="https://i.ibb.co/596ygYj/arrow-60f4e50.png"
               alt=""
               className="hidden lg:inline-block absolute top-32 left-64 xl:left-[22rem] w-24 xl:w-[9.5rem]"
             />
             <img
-              src="src/assets/arrow.60f4e50.png"
+              src="https://i.ibb.co/596ygYj/arrow-60f4e50.png"
               alt=""
               className="hidden lg:inline-block absolute top-32 right-64 xl:right-[22rem] w-24 xl:w-[9.5rem]"
             />

@@ -8,7 +8,7 @@ const Tools = () => {
           <div className="col-span-12 lg:col-span-6 sm:hidden">
             <div className="w-full sm:mt-20 xl:mt-0">
               <img
-                src="src/assets/advanced-trading-tools.4f95ae5.webp"
+                src="https://i.ibb.co/S7XrX9X/advanced-trading-tools-4f95ae5.webp"
                 alt=""
                 className="w-full"
               />

@@ -7,7 +7,6 @@ const BuyTrade = () => {
         <motion.div
           initial={{ x: -40, opacity: 0.1 }}
           whileInView={{ x: 0, opacity: 1 }}
-          // transition={{ type: "tween", duration: 1 }}
           transition={{ type: "spring", bounce: 0.5 , duration:1}}
           className="col-span-12 lg:col-span-6 mt-4 xl:mt-20 space-y-6 px-4 "
         >
@@ -39,7 +38,7 @@ const BuyTrade = () => {
                   className="w-full text-black/80 flex items-center justify-center space-x-1 relative sm:px-6 py-[1.35rem] border border-[#0c66ee] rounded-xl text-sm font-medium"
                 >
                   <img
-                    src="src/assets/eng.52eb53e.png"
+                    src="https://i.ibb.co/34mWkyf/eng-52eb53e.png"
                     alt=""
                     className="flex-shrink-0 h-6 w-6 rounded-full"
                   />
@@ -60,7 +59,7 @@ const BuyTrade = () => {
                     </svg>
                   </span>
                 </button>{" "}
-                <ul
+                {/* <ul
                   tabindex="-1"
                   class="absolute z-10 mt-1 w-full bg-white shadow-lg max-h-56 rounded-md py-1 text-base ring-1 ring-black ring-opacity-5 overflow-auto focus:outline-none sm:text-sm border border-[#0c66ee]"
                 >
@@ -81,7 +80,7 @@ const BuyTrade = () => {
                       </span>
                     </div>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>
@@ -140,7 +139,7 @@ const BuyTrade = () => {
           className="col-span-12 lg:col-span-6 hidden sm:block -ml-8  mt-4 sm:-mt-4 "
         >
           <div className="">
-            <img src="src/assets/buy-and-trade.69b9f7b.webp" />
+            <img src="https://i.ibb.co/SrCDbxF/buy-and-trade-69b9f7b.webp" />
           </div>
         </motion.div>
       </div>

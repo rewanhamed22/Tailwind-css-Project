@@ -13,7 +13,7 @@ const Industry = () => {
           >
             <div className="w-full">
               <img
-                src="src/assets/industry-leading-security.16b398c.webp"
+                src="https://i.ibb.co/hVgn54R/industry-leading-security-16b398c.webp"
                 alt=""
                 className="w-full"
               />

@@ -10,7 +10,7 @@ const Credit = () => {
           <div className="col-span-12 lg:col-span-7">
             <div className="w-full">
               <img
-                src="src/assets/nefa-cc.4277338.webp"
+                src="https://i.ibb.co/SnyYzjk/nefa-cc-4277338.webp"
                 alt=""
                 className="w-[95%]"
               />

@@ -14,7 +14,7 @@ const Support = () => {
               className="w-full"
             >
               <img
-                src="src/assets/faq.05e12ee.webp"
+                src="https://i.ibb.co/sFvhrq4/faq-05e12ee.webp"
                 alt=""
                 className="w-full"
               />

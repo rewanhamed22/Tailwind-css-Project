@@ -45,7 +45,7 @@ const Hero = () => {
           </div>
           <div className="hidden sm:block w-1/2  -ml-8 -mt-12 ">
             <div className="">
-              <img src="src/assets/hero-image.webp" />
+              <img src="https://i.ibb.co/0F0qTRy/hero-image.webp" />
             </div>
           </div>
         </div>

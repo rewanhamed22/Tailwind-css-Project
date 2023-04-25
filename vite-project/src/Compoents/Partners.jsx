@@ -26,21 +26,21 @@ const Partners = () => {
             </div>
             <div>
               <img
-                src="src/assets/diamon.png"
+                src="https://i.ibb.co/Yj2mGMN/diamon.png"
                 alt=""
                 class="sm:w-1/2 lg:w-72 mx-auto"
               />
             </div>
             <div>
               <img
-                src="src/assets/swiss.png"
+                src="https://i.ibb.co/ZgVB0vC/swiss.png"
                 alt=""
                 class="sm:w-1/2 lg:w-72 mx-auto"
               />
             </div>
             <div>
               <img
-                src="src/assets/gambio.png"
+                src="https://i.ibb.co/bHNmfT8/gambio.png"
                 alt=""
                 class="sm:w-1/2 lg:w-72 mx-auto"
               />
