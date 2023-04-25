@@ -37,7 +37,8 @@ const Industry = () => {
                     role="img"
                     className="material-design-icon check-circle-icon text-[#0c66ee]"
                   >
-                    <svg
+                    <svg 
+                    
                       fill="currentColor"
                       width="20"
                       height="20"

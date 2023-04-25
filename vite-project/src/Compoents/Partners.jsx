@@ -19,7 +19,7 @@ const Partners = () => {
           >
             <div>
               <img
-                src="src/assets/clever.png"
+                src="https://i.ibb.co/jZpnfMj/clever.png"
                 alt=""
                 className="sm:w-1/2 lg:w-72 mx-auto"
               />
