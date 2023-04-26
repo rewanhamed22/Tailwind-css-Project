@@ -9,7 +9,7 @@ const Navbar = () => {
             <div className="w-full flex flex-row items-center justify-between py-6">
               <div>
                 <img
-                  src="src/assets/nefa.37ff23e.svg"
+                  src="https://nefa-rsurya99.vercel.app/_nuxt/img/nefa.37ff23e.svg"
                   className="w-50% lg:w-28 "
                   alt="logo"
                 />

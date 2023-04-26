@@ -10,7 +10,7 @@ const Footer = () => {
               <div className="sm:hidden xl:block mb-6 sm:mb-0">
                 <a href="#">
                   <img
-                    src="src/assets/nefa.37ff23e.svg"
+                    src="https://nefa-rsurya99.vercel.app/_nuxt/img/nefa.37ff23e.svg"
                     alt="Nefa Logo"
                     className="w-24 -mt-2"
                   />
